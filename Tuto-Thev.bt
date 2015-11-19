@@ -14,20 +14,61 @@
         "metadata": {
           "label": ""
         },
-        "properties": {
-          "name": "Speech",
-          "inputParams": [
-            {
-              "key": "message",
-              "type": "string",
-              "value": "Hello"
-            }
-          ],
-          "outputParams": []
-        },
-        "children": [],
-        "id": "0326b38b-f478-44b7-9490-1ff7c8526f9b",
-        "type": "action"
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Speech",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "Hello"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "0326b38b-f478-44b7-9490-1ff7c8526f9b",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [],
+            "id": "a363bc6d-857e-4fd1-8bae-72d7430b1213",
+            "type": "sequence"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "SetDeviceValue",
+              "inputParams": [
+                {
+                  "key": "deviceName",
+                  "type": "string",
+                  "value": ""
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "3f8928d6-e352-42ab-97d9-bea8369ec5a7",
+            "type": "action"
+          }
+        ],
+        "id": "904c6060-d4cc-45f5-b32d-612e56fe29fc",
+        "type": "sequence"
       }
     ],
     "id": "2ac607f5-305f-4fa6-8634-7c664527251b"
