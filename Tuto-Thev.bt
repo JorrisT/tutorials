@@ -8,7 +8,28 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "name": "Speech",
+          "inputParams": [
+            {
+              "key": "message",
+              "type": "string",
+              "value": "Hello"
+            }
+          ],
+          "outputParams": []
+        },
+        "children": [],
+        "id": "0326b38b-f478-44b7-9490-1ff7c8526f9b",
+        "type": "action"
+      }
+    ],
     "id": "2ac607f5-305f-4fa6-8634-7c664527251b"
   }
 ]
