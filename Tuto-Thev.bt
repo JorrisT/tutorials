@@ -41,16 +41,6 @@
             "metadata": {
               "label": ""
             },
-            "properties": {},
-            "children": [],
-            "id": "a363bc6d-857e-4fd1-8bae-72d7430b1213",
-            "type": "sequence"
-          },
-          {
-            "activated": true,
-            "metadata": {
-              "label": ""
-            },
             "properties": {
               "name": "SetDeviceValue",
               "inputParams": [
