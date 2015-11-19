@@ -8,7 +8,53 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Say",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "Hello"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "32024e4f-0eb5-4dd8-990b-7854fd53440e",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "d736a9eb-5cec-4b09-bad1-c6e3272d35b3",
+            "type": "action"
+          }
+        ],
+        "id": "9f5ad35d-2f21-4720-9a37-9ea6c480e2c4",
+        "type": "sequence"
+      }
+    ],
     "id": "67a8af44-8fd3-49b2-9aab-2a222e270db3"
   }
 ]
